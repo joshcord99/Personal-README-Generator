@@ -32,9 +32,9 @@ function returnLicenseSection(license)
   } 
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(questions) {
+function generateMarkdown(data) {
   return `
-# ${questions.projectTitle}
+# ${data.projectTitle}
 
 
 ## Table of Contents
@@ -48,37 +48,37 @@ function generateMarkdown(questions) {
 
 
 ## Description
-${questions.description}
+${data.description}
 
 
 ## installation
-${questions.installation}
+${data.installation}
 
 ## Usage
-${questions.usage}
+${data.usage}
 
 ## Credits
-${questions.credits}
+${data.credits}
 
 ## License
-${returnLicenseSection(questions.license)}
-${renderLicenseLink(questions.license)}
+${returnLicenseSection(data.license)}
+${renderLicenseLink(data.license)}
 
 ## Badges
-${renderLicenseBadge(questions.license)}
+${renderLicenseBadge(data.license)}
 
 ## Features
-${questions.features}
+${data.features}
 
 ## How to contribute
-${questions.contribution}
+${data.contribution}
 
 ## Tests
-${questions.tests}
+${data.tests}
 
 ## Contact
-- GitHub: [${questions.githubUsername}](https://github.com/${questions.githubUsername})
-- Email: ${questions.emailAddress}
+- GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
+- Email: ${data.emailAddress}
   `;
 }
 
