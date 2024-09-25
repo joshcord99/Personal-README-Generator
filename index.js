@@ -69,21 +69,25 @@ function questions () {
   ];
 }
 // TODO: Create a function to write README file
-function writeToFile('fileName', data) {
-  fs.writeFile('README.md', data, (error) => {
-    if (error) {
-      console.eror('Error writing the fil:', eror);
-    } 
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+    if (err) {
+      console.error('Error writing the file:', err);
+    } else {
+      console.log(`${fileName} has been generated!`);
+    }
+  });
 }
 
 // TODO: Initialize the app
 function init() {
-  inquirer.prommpt(questions).then(answers => {
-    let generatedContent = generateMarkdown(answers);
+  inquirer.prompt(questions()).then(answers => {
+    const generatedContent = generateMarkdown(answers);
     writeToFile('README.md', generatedContent);
-    console.error('Error:', errr);
+  }).catch(error => {
+    console.error('Error:', error);
   });
+}
 
-a
 // Function call to initialize app
 init();
