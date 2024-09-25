@@ -1,5 +1,6 @@
 import inquirer from 'inquirer';
-import generateMarkdown from './utils/generateMarkdown.ts';
+import fs from 'fs';
+import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
 function questions () {
@@ -68,6 +69,7 @@ function questions () {
     }
   ];
 }
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
@@ -91,3 +93,4 @@ function init() {
 
 // Function call to initialize app
 init();
+

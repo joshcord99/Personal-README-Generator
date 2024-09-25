@@ -11,6 +11,7 @@ function renderLicenseBadge(license) {
     return "";
   }
 }
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
@@ -20,16 +21,24 @@ function renderLicenseLink(license) {
     return `[Apache License](https://opensource.org/licenses/Apache-2.0)`;
   } else if (license === "ISC") {
     return `[ISC License](https://opensource.org/licenses/ISC)`;
+  } else {
+    return "";
   }
 }
+
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function returnLicenseSection(license) 
-  if (license == "MIT") {
+function returnLicenseSection(license) {
+  if (license === "MIT") {
     return "This project is licensed under the MIT license.";
-  } if (license == "Apache2.0") {
+  } else if (license === "Apache") {
     return "This project is licensed under the Apache License.";
-  } 
+  } else if (license === "ISC") {
+    return "This project is licensed under the ISC License.";
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -83,3 +92,4 @@ ${data.tests}
 }
 
 export default generateMarkdown;
+

@@ -1,7 +1,6 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,5 +11,7 @@
   "dependencies": {
     "inquirer": "^8.2.4"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {},
+  "description": ""
 }
