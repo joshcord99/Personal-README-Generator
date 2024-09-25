@@ -1,81 +1,48 @@
-// TODO: Include packages needed for this application
 import inquirer from 'inquirer';
-import fs from 'fs';
-import generateMarkdown from './utils/generateMarkdown.js';
-
-
+import generateMarkdown from './utils/generateMarkdown.ts';
 
 // TODO: Create an array of questions for user input
-const questions = [
-  {
-    type: 'input',
-    name: 'title',
-    message: "What is your project's title?",
-  },
-  {
-    type: 'input',
-    name: 'description',
-    message: 'Provide a description of your project:',
-  },
-  {
-    type: 'input',
-    name: 'installation',
-    message: 'Provide installation instructions:',
-  },
-  {
-    type: 'input',
-    name: 'usage',
-    message: 'Provide usage information:',
-  },
-  {
-    type: 'input',
-    name: 'contributing',
-    message: 'Provide contribution guidelines:',
-  },
-  {
-    type: 'input',
-    name: 'tests',
-    message: 'Provide test instructions:',
-  },
-  {
-    type: 'list',
-    name: 'license',
-    message: 'Choose a license for your project:',
-    choices: ['MIT', 'GPLv3', 'Apache 2.0', 'BSD 3-Clause', 'None'],
-  },
-  {
-    type: 'input',
-    name: 'github',
-    message: 'Enter your GitHub username:',
-  },
-  {
-    type: 'input',
-    name: 'email',
-    message: 'Enter your email address:',
-  },
-];
+function questions {
+  return ''  [
+    {
+      type: 'input',
+      message: 'What is the title of your project?',
+      name: 'projectTitle',
+    },
+    {
+      type: 'input',
+      message: 'Provide a short description of your project:',
+      name: 'description',
+    },
+    {
+      type: 'input',
+      message: 'Steps require to install this project?',
+      name: 'installation',
+    },
+    {
+      type: 'input',
+      message: 'Any features in this project?',
+      name: 'features',
+    },
+    
+  ];
+}
 
 // TODO: Create a function to write README file
-function writeToFile(README, data) {
-  fs.writeFile(README.md, data, (err) => {
-    if (err) {
-      console.log(error);
-    } else {
-      console.log('README.md file has been generated!');
-    }
-  });
+function writeToFile('fileName', data) {
+  fs.writeFile('README.md', data, (error) => {
+    if (error) {
+      console.eror('Error writing the fil:', eror);
+    } 
 }
 
-// REAMDME.md file content
-function generateREADME(answers) {
-  return
-
-
-// TODO: Create a function to initialize app
+// TODO: Initialize the app
 function init() {
-  writeToFile.questions.README
-
-}
+  inquirer.prommpt(questions).then(answers => {
+    let generatedContent = generateMarkdown(answers);
+    writeToFile('README.md', generatedContent);
+    console.error('Error:', errr);
+  });
 
 
 // Function call to initialize app
