@@ -32,15 +32,17 @@ function returnLicenseSection(license)
   } 
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(questions) {
-  return 
-}
-## ${data.projectTitle}
 
-
-
+## Table of Contents
 ## Description
-${data.description}
-
+## installation
+## Usage
+## Credits
+## License
+## Badges
+## Features
+## How to contribute
+## Tests
+## Contact
 
 export default generateMarkdown;
