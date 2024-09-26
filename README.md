@@ -10,23 +10,22 @@ Generates read me file based on input from user throught the terminal
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Installation](#installation-instruction)
 - [Usage](#usage)
 - [License](#license)
-- [Credits](#credits)
 - [Contributions](#contributions)
-- [Tests](#tests)
+- [Tests](#test)
 - [Questions](#questions)
 
-## Installation Instructions
+## Installation Instruction
 
 Clone my repo
 
-## Usages
+## Usage
 
 When you create a project a read me is used to provide the users that will be utilizing your project a oveview of important information such as how to understand, install, and use your project.
 
-## License/s
+## License
 
 This project is licensed under the Apache License.
 
@@ -34,7 +33,7 @@ This project is licensed under the Apache License.
 
 None
 
-## Test Instructions
+## Test
 
 None
 
