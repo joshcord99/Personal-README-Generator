@@ -2,7 +2,7 @@
 
 ## Description
 
-Generates read me file based on input from user throught the terminal
+Generates read me file based on input from user through the terminal
 
 ## Badges
 
@@ -23,7 +23,7 @@ Clone my repo
 
 ## Usage
 
-When you create a project a read me is used to provide the users that will be utilizing your project a oveview of important information such as how to understand, install, and use your project.
+When you create a project a read me is used to provide the users that will be utilizing your project a overview of important information such as how to understand, install, and use your project.
 
 ## License
 
