@@ -13,7 +13,7 @@ Generates read me file based on input from user throught the terminal
 - [Installation](#installation-instruction)
 - [Usage](#usage)
 - [License](#license)
-- [Contributions](#contributions)
+- [Contributions](#contribution)
 - [Tests](#test)
 - [Questions](#questions)
 
