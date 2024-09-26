@@ -54,11 +54,11 @@ ${renderLicenseBadge(data.license)}
 
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
-- [Usages](#usage)
-- [License/s](#license)
+- [Usage](#usage)
+- [License](#license)
 - [Contributions](#contributions)
-- [Test Instruction](#test)
-- [Question](#questions)
+- [Test](#test)
+- [Question](#question)
 
 ## Installation Instructions
 ${data.installation}
