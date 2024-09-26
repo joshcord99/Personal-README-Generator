@@ -46,50 +46,40 @@ function generateMarkdown(data) {
 # ${data.projectTitle}
 
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Credits](#credits)
-- [Contributions](#contributions)
-- [Tests](#tests)
-- [Questions](#questions)
-
-
 ## Description
 ${data.description}
 
+## Badges
+${renderLicenseBadge(data.license)}
 
-## installation
+## Table of Contents
+- [Installation Instructions](#installation-instructions)
+- [Usages](#usage)
+- [License/s](#license)
+- [Contributions](#contributions)
+- [Test Instruction](#test)
+- [Question](#questions)
+
+## Installation Instructions
 ${data.installation}
 
 ## Usage
 ${data.usage}
 
-## Credits
-${data.credits}
-
 ## License
 ${returnLicenseSection(data.license)}
-${renderLicenseLink(data.license)}
 
-## Badges
-${renderLicenseBadge(data.license)}
+## Contributions
+${data.contributions}
 
-## Features
-${data.features}
-
-## How to contribute
-${data.contribution}
-
-## Tests
+## Test
 ${data.tests}
 
-## Contact
+
+## Question
 - GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
 - Email: ${data.emailAddress}
   `;
 }
 
 export default generateMarkdown;
-
