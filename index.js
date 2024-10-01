@@ -23,7 +23,7 @@ function questions() {
     },
     {
       type: "input",
-      message: "What would you use this for?",
+      message: "How would I run this?",
       name: "usage",
     },
     {
