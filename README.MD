@@ -2,7 +2,7 @@
 
 ## Description
 
-Generates read me file based on input from user through the terminal
+Generates read me file based on input from the user through the terminal
 
 ## Badges
 
