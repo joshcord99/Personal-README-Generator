@@ -6,8 +6,6 @@ Generates read me file based on input from user through the terminal
 
 ## Badges
 
-[![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
 ## Table of Contents
 
 - [Installation](#installation-instruction)
@@ -27,11 +25,9 @@ When you create a project a read me is used to provide the users that will be ut
 
 ## License
 
-This project is licensed under the Apache License.
-
 ## Contribution
 
-None
+Please fork this project and submit a pull request.
 
 ## Test
 
