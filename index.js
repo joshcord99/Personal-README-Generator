@@ -65,7 +65,7 @@ function writeToFile(fileName, data) {
     }
   });
 }
-//Initialize the app
+//Initialize the application
 function init() {
   inquirer
     .prompt(questions())
