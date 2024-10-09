@@ -2,7 +2,7 @@ import inquirer from "inquirer";
 import fs from "fs";
 import generateMarkdown from "./generateMarkdown.js";
 
-// TODO: Create an array of questions for user input
+//Created an array of questions for user input
 function questions() {
   return [
     {
@@ -55,7 +55,7 @@ function questions() {
   ];
 }
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     if (err) {
@@ -65,19 +65,17 @@ function writeToFile(fileName, data) {
     }
   });
 }
-
-// TODO: Initialize the app
+//Initialize the app
 function init() {
   inquirer
     .prompt(questions())
     .then((answers) => {
       const generatedContent = generateMarkdown(answers);
-      writeToFile("README.md", generatedContent);
+      writeToFile("yourReadMe/README.md", generatedContent);
     })
     .catch((error) => {
       console.error("Error:", error);
     });
 }
-
 // Function call to initialize app
 init();
