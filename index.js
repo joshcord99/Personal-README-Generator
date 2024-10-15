@@ -65,6 +65,7 @@ function writeToFile(fileName, data) {
     }
   });
 }
+
 //Initialize the application
 function init() {
   inquirer
