@@ -50,6 +50,9 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+<!-- Insert Gif/image Here -->
+<!-- ![](insert image/gif link here from github repo) -->
+
 
 ## Badges
 ${renderLicenseBadge(data.license)}
