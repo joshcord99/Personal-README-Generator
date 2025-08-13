@@ -1,5 +1,5 @@
 {
-  "name": "static-site",
+  "name": "personal-readme-generator",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -9,9 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^12.9.1"
   },
-  "keywords": [],
-  "devDependencies": {},
-  "description": ""
+  "keywords": [
+    "readme",
+    "generator",
+    "markdown"
+  ],
+  "description": "A command-line application that generates professional README files based on user input"
 }

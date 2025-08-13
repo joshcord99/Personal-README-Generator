@@ -67,16 +67,15 @@ function writeToFile(fileName, data) {
 }
 
 //Initialize the application
-function init() {
-  inquirer
-    .prompt(questions())
-    .then((answers) => {
-      const generatedContent = generateMarkdown(answers);
-      writeToFile("yourReadMe/README.md", generatedContent);
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
+async function init() {
+  try {
+    const answers = await inquirer.prompt(questions());
+    const generatedContent = generateMarkdown(answers);
+    writeToFile("yourReadMe/README.md", generatedContent);
+  } catch (error) {
+    console.error("Error:", error);
+  }
 }
+
 // Function call to initialize app
 init();

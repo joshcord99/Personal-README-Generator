@@ -1,51 +1,34 @@
-  <!-- //Clearly state the name of the project at the top. -->
-# Joshua-Cordial-The-Programmer
+# ewew
 
-<!-- Insert Gif/image Here -->
-<!-- ![](insert image/gif link here from github repo) -->
-
-<!-- // Provide a brief overview of what the project is about, its purpose, and what problem it solves. -->
 ## Description
-This project is a portfolio built using React to showcase my work as a web developer. It features a modern design, intuitive navigation, and a responsive layout that is suitable for both desktop and mobile devices. The application includes links to my projects and contact information, and it is deployed on Netlify.
-
+ewew
 
 ## Badges
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-<!-- //List the main sections of the README for easy navigation, especially for longer documents. -->
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
 - [Usage](#usage)
 - [License](#license)
 - [Contributions](#contributions)
-- [Technologies](#technologies)
+- [Test](#test)
 - [Contact](#contact)
 
-<!-- //Explain how to install the project. Include system requirements, necessary dependencies, and step-by-step instructions. -->
 ## Installation Instructions
-clone my repo, do an npm install, then after do an npm run start.
+ewe
 
-<!-- //Provide examples of how to use the project, including code snippets, command line instructions, or screenshots if applicable. -->
 ## Usage
-None.
+ewewe
 
-<!-- //Include information about the project's license (e.g., MIT, Apache, GPL) and link to the license file. -->
 ## License
+This project is licensed under the MIT license.
 
-
-<!-- //Outline guidelines for contributing to the project, including code standards, the process for submitting pull requests, and any rules for collaboration. -->
 ## Contributions
-Please fork this project and submit a pull request.
+ewewe
 
-<!-- //Describe how to run tests for the project, including any required setup or tools. -->
-## Technologies
-- React
-- Vite
-- HTML/CSS
- - JavaScript
+## Test
+wewe
 
-<!-- //Provide contact details for users to reach out for support or inquiries, including email or links to social media profiles. -->
 ## Contact
-- GitHub: [joshcord99](https://github.com/joshcord99)
-- Email: joshcord99@gmail.com
-  
+- GitHub: [ewew](https://github.com/ewew)
+- Email: ewew

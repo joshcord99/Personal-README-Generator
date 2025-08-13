@@ -1,39 +1,28 @@
-# PERSONAL-README-GENERATOR
+# Personal README Generator
 
 ## Description
 
-Generates read me file based on input from the user through the terminal
+A simple command-line tool that generates professional README files by asking you a few questions about your project.
 
-## Badges
+## Installation
 
-## Table of Contents
-
-- [Installation](#installation-instruction)
-- [Usage](#usage)
-- [License](#license)
-- [Contributions](#contribution)
-- [Tests](#test)
-- [Questions](#questions)
-
-## Installation Instruction
-
-Clone my repo
+```bash
+npm install
+```
 
 ## Usage
 
-When you create a project a read me is used to provide the users that will be utilizing your project a overview of important information such as how to understand, install, and use your project.
+```bash
+npm start
+```
+
+Answer the prompts and your README will be generated in the `yourReadMe/` folder.
 
 ## License
 
-## Contribution
-
-Please fork this project and submit a pull request.
-
-## Test
-
-None
+ISC
 
 ## Questions
 
-- GitHub: [https://github.com/joshcord99](https://github.com/https://github.com/joshcord99)
+- GitHub: [joshcord99](https://github.com/joshcord99)
 - Email: joshcord99@gmail.com
